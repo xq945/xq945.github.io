@@ -3,8 +3,8 @@
     "vitepress": "^1.6.4"
   },
   "scripts": {
-    "dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs --port 5173",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   }
 }
