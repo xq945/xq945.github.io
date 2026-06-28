@@ -2,8 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'NovaBlog',
-  description: 'Java 后端技术博客',
+  title: 'xq945',
   lastUpdated: true,
   cleanUrls: true,
   head: [
