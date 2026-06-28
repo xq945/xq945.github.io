@@ -1,5 +1,5 @@
 ---
-title: Java 基础
+title: Java基础
 ---
 
 # Java基础

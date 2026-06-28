@@ -1,7 +1,7 @@
 ---
-title: Java 多线程
+title: JUC
 ---
 
-# Java 多线程
+# Java并发
 
 

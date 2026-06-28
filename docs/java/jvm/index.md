@@ -1,6 +1,6 @@
 ---
-title: Java 虚拟机
+title: JVM
 ---
 
-# Java 虚拟机
+# Java虚拟机
 

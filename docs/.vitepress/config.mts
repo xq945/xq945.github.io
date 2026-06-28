@@ -21,7 +21,6 @@ export default defineConfig({
           { text: 'Java虚拟机', link: '/java/jvm/' }
         ]
       },
-      { text: '算法', link: '/alogorithm/' },
       { text: 'Spring', link: '/spring/' },
       { text: 'MySQL', link: '/mysql/' },
       { text: 'Redis', link: '/redis/' },
@@ -37,7 +36,6 @@ export default defineConfig({
           { text: 'Java虚拟机', link: '/java/jvm/' }
         ]
       },
-      { text: '算法', link: '/alogorithm/' },
       { text: 'Spring', link: '/spring/' },
       { text: 'MySQL', link: '/mysql/' },
       { text: 'Redis', link: '/redis/' },
