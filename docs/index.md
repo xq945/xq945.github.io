@@ -3,6 +3,7 @@ layout: doc
 title: 简历
 description: 张广的在线简历 — Java 后端开发工程师
 outline: deep
+sidebar: false
 pageClass: resume-page
 ---
 
@@ -22,7 +23,7 @@ pageClass: resume-page
 
 ## 个人简介
 
-江西师范大学数据科学与大数据技术专业 2027 届本科生，目前在江西云牛科技从事后端开发实习。熟悉 Java 与 Spring 生态，掌握 MySQL、Redis 的常见应用与优化；独立完成 AI 求职辅助平台与博客系统，实践了异步任务、认证授权、缓存设计与接口性能优化。
+江西师范大学数据科学与大数据技术专业 2027 届本科生。熟悉 Java 与 Spring 生态，掌握 MySQL、Redis 的常见应用与优化；独立完成 AI 求职辅助平台与博客系统，实践了异步任务、认证授权、缓存设计与接口性能优化。
 
 ## 教育背景
 
