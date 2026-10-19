@@ -16,7 +16,7 @@ pageClass: resume-page
   <span class="resume-dot">·</span>
   <span>198****5898</span>
   <span class="resume-dot">·</span>
-  <a href="mailto:3059697831@qq.com">3059697831@qq.com</a>
+  <span>3059697831@qq.com</span>
   <span class="resume-dot">·</span>
   <a href="https://github.com/xq945" target="_blank" rel="noopener noreferrer">GitHub</a>
 </div>
