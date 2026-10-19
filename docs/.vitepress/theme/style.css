@@ -73,7 +73,7 @@ html {
 
 /* 全站背景 - 默认关闭，通过 .bg-enabled 开启 */
 html.bg-enabled body {
-  background-image: url('/bg.jpg');
+  background-image: url('/bg.webp');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -232,4 +232,103 @@ html.bg-enabled .VPFooter {
 /* 本地搜索高亮 */
 .VPLocalSearchBox .result.selected {
   border-color: var(--vp-c-brand-1);
+}
+
+/* ===== 首页简历（pageClass: resume-page） ===== */
+.resume-page .vp-doc h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.resume-page .vp-doc .resume-tagline {
+  margin: 0 0 12px;
+  color: var(--vp-c-text-2);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.resume-page .vp-doc .resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+.resume-page .vp-doc .resume-contact a {
+  color: var(--vp-c-brand-1);
+}
+
+.resume-page .vp-doc .resume-dot {
+  color: var(--vp-c-divider);
+}
+
+.resume-page .vp-doc h2 {
+  position: relative;
+  margin: 40px 0 16px;
+  padding: 0 0 0 12px;
+  border-top: none;
+  font-size: 1.35rem;
+}
+
+.resume-page .vp-doc h2::before {
+  content: '';
+  position: absolute;
+  top: 0.2em;
+  bottom: 0.2em;
+  left: 0;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--vp-c-brand-1);
+}
+
+.resume-page .vp-doc h3 {
+  margin: 26px 0 2px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.resume-page .vp-doc .resume-period {
+  margin: 0 0 10px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-3);
+}
+
+.resume-page .vp-doc ul {
+  padding-left: 1.2rem;
+}
+
+.resume-page .vp-doc li {
+  margin: 4px 0;
+}
+
+.resume-page .vp-doc table {
+  font-size: 0.9rem;
+}
+
+.resume-page .vp-doc table th {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .resume-page .vp-doc h1 {
+    font-size: 1.9rem;
+  }
+
+  .resume-page .vp-doc .resume-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .resume-page .vp-doc .resume-dot {
+    display: none;
+  }
 }
