@@ -2,7 +2,7 @@
 layout: doc
 title: 简历
 description: 张广的在线简历 — Java 后端开发工程师
-aside: false
+outline: deep
 pageClass: resume-page
 ---
 
