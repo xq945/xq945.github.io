@@ -1,25 +1,12 @@
 ---
 layout: doc
 title: 简历
-description: 张广的在线简历 — Java 后端开发工程师
+description: 在线简历 — Java 后端开发工程师
 outline: deep
 sidebar: false
 pageClass: resume-page
 ---
 
-# 张广
-
-<p class="resume-tagline">Java 后端开发工程师 · 2027 届本科 · 江西师范大学</p>
-
-<div class="resume-contact">
-  <span>男 · 21 岁</span>
-  <span class="resume-dot">·</span>
-  <span>198****5898</span>
-  <span class="resume-dot">·</span>
-  <span>3059697831@qq.com</span>
-  <span class="resume-dot">·</span>
-  <a href="https://github.com/xq945" target="_blank" rel="noopener noreferrer">GitHub</a>
-</div>
 
 ## 个人简介
 
